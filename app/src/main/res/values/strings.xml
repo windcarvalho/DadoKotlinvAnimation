@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DadoKotlinv1</string>
+    <string name="mensagemInicial">Sou fã de Kotlin!</string>
+</resources>
