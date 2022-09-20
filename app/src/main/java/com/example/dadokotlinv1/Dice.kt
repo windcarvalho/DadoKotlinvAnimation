@@ -5,7 +5,7 @@ import kotlin.random.Random
 
 data class Dice (val numFaces:Int) {
    var number:Int = 0
-            get() = field
+           get() = field
             set(newValue) {
                 if ((newValue <= numFaces)&&(newValue >= 1)) {
                     field = newValue
