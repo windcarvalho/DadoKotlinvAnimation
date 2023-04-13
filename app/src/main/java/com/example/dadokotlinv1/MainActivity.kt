@@ -53,8 +53,6 @@ class MainActivity : AppCompatActivity(), Animation.AnimationListener {
             val d:Dice= Dice(6);
             val diceImage: ImageView = findViewById(R.id.imageView)
             diceImage.startAnimation(rolaDadoAnim)
-            d.number = 3
-            d.number= d.numFaces + 1
 
             val random: Int = d.rollDice()
             faceAtual = random

@@ -3,10 +3,9 @@ package com.example.dadokotlinv1
 import android.util.Log
 import kotlin.random.Random
 
-data class Dice (val numFaces:Int) {
+class Dice (val numFaces:Int) {
    var number:Int = 0
-           get() = field
-            set(newValue) {
+           set(newValue) {
                 if ((newValue <= numFaces)&&(newValue >= 1)) {
                     field = newValue
                 }
